@@ -24,8 +24,11 @@ html {
     height: 60px;
 }
 
+#navbar .nav-icon {
+    margin-left: -5px;
+}
+
 #navbar li {
-    margin-left: 20px;
     margin-right: auto;
     font-size: 18px !important;
     color: #866526;
@@ -34,6 +37,10 @@ html {
     font-weight: 900;
     text-decoration: none;
     position: relative;
+}
+
+#navbar .navbar .navbar-nav li {
+    margin-left: 20px;
 }
 
 #navbar li::after {
@@ -65,20 +72,20 @@ html {
 }
 
 .title {
-    margin-top: 30px!important;
-    width: 160px;   
+    margin-top: 30px !important;
+    width: 160px;
     padding: 20px;
     text-align: center;
     margin: 0 auto;
     border: 2px solid #ccc;
 }
 
-#content1:hover .title{
+#content1:hover .title {
     background-color: rgba(0, 0, 0, 0.3);
     color: #fff;
     border: 2px solid #ccc;
     transition: 0.4s;
-    box-shadow: 5px 5px #ccc;   
+    box-shadow: 5px 5px #ccc;
 }
 
 .sub-title {
@@ -86,5 +93,32 @@ html {
     padding-top: 30px;
 }
 
-.content1-title img{
+.content1-title img {
+}
+
+.content1-title .img-bread {
+    border: 2px solid wheat;
+    border-radius: 25px;
+}
+
+#content2 {
+    background-image: linear-gradient(rgba(204, 204, 204, 0.6), rgba(204, 204, 204, 0.6));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#content2 .menu-1 .menu-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 230px;
+}
+
+
+/* Content end */
+#content-end{
+    padding-top: 30px;
 }
