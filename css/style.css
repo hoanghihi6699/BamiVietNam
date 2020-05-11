@@ -13,6 +13,8 @@ html {
     scroll-behavior: smooth;
 }
 
+#navbar{background-color: white;}
+
 #navbar .navbar {
     position: sticky;
     -webkit-user-select: none;
@@ -24,8 +26,13 @@ html {
     height: 60px;
 }
 
+.navbar .navbar-nav{
+    justify-content: space-between;
+}
+
 #navbar .nav-icon {
-    margin-left: -5px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 #navbar li {
@@ -33,7 +40,6 @@ html {
     font-size: 18px !important;
     color: #866526;
     display: table;
-    margin-bottom: 10px;
     font-weight: 900;
     text-decoration: none;
     position: relative;
@@ -64,7 +70,7 @@ html {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 500px;
+    height: 520px;
 }
 
 .content1-title {
@@ -93,22 +99,34 @@ html {
     padding-top: 30px;
 }
 
-.content1-title img {
-}
 
 .content1-title .img-bread {
     border: 2px solid wheat;
     border-radius: 25px;
 }
 
-#content2 {
-    background-image: linear-gradient(rgba(204, 204, 204, 0.6), rgba(204, 204, 204, 0.6));
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 30px;
-    padding-bottom: 30px;
+/* Content2 */
+
+#content2 .wave {
+    background-image: url(../img/icon/wave.png);
+    width: 100%;
+    background-repeat: repeat-x;
+    height: 46px;
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
+
+#content2 .wave-roll {
+    background-image: url(../img/icon/wave-roll.png);
+    width: 100%;
+    background-repeat: repeat-x;
+    height: 46px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    z-index: 3;
+    position: relative;
+}
+
 
 #content2 .menu-1 .menu-img {
     background-size: cover;
@@ -117,8 +135,16 @@ html {
     height: 230px;
 }
 
-
 /* Content end */
-#content-end{
-    padding-top: 30px;
+#content-end {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/image/banh-mi-2.jpeg);
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 60px;
+}
+
+#content-head{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/image/Asset1.png);
 }

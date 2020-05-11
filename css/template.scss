@@ -65,6 +65,9 @@ $color-brown: #8b4513;
 
 .m {
     &-t {
+        &-0 {
+            margin-top: 0;
+        }
         &-1 {
             margin-top: 10px;
         }
@@ -85,6 +88,9 @@ $color-brown: #8b4513;
         }
     }
     &-b {
+        &-0 {
+            margin-bottom: 0;
+        }
         &-1 {
             margin-bottom: 10px;
         }
@@ -105,6 +111,9 @@ $color-brown: #8b4513;
         }
     }
     &-l {
+        &-0 {
+            margin-left: 0;
+        }
         &-1 {
             margin-left: 10px;
         }
@@ -125,6 +134,9 @@ $color-brown: #8b4513;
         }
     }
     &-r {
+        &-0 {
+            margin-right: 0;
+        }
         &-1 {
             margin-right: 10px;
         }
@@ -331,4 +343,32 @@ $color-brown: #8b4513;
     &justify {
         text-align: justify;
     }
+    &center {
+        text-align: center;
+    }
+}
+
+.lh- {
+    &1 {
+        line-height: 20px;
+    }
+    &2 {
+        line-height: 30px;
+    }
+    &3 {
+        line-height: 36px;
+    }
+    &4 {
+        line-height: 42px;
+    }
+    &5 {
+        line-height: 46px;
+    }
+    &6 {
+        line-height: 50px;
+    }
+}
+
+.li-none {
+    list-style-type: none;
 }
