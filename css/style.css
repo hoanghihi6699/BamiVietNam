@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@wght@400;500;600;700&display=swap");
+
+* {
+    font-family: "Baloo Bhaina 2", cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar .navbar {
+    position: sticky;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navbar .navbar-brand .logo {
+    height: 60px;
+}
+
+#navbar li {
+    margin-left: 20px;
+    margin-right: auto;
+    font-size: 18px !important;
+    color: #866526;
+    display: table;
+    margin-bottom: 10px;
+    font-weight: 900;
+    text-decoration: none;
+    position: relative;
+}
+
+#navbar li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0;
+    border-bottom: 2px solid #866526;
+    -webkit-transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+#navbar li:hover::after {
+    width: 100%;
+}
+
+/* Content 1*/
+#content1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../img/image/background-163980.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 500px;
+}
+
+.content1-title {
+    padding-top: 60px;
+}
+
+.title {
+    margin-top: 30px!important;
+    width: 160px;   
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+}
+
+#content1:hover .title{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: 2px solid #ccc;
+    transition: 0.4s;
+    box-shadow: 5px 5px #ccc;   
+}
+
+.sub-title {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.content1-title img{
+}
