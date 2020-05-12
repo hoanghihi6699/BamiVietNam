@@ -146,5 +146,21 @@ html {
 }
 
 #content-head{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/image/Asset1.png);
+    background-color: wheat;
+    padding-bottom: 60px;
+}
+
+.carousel-indicators{
+    bottom: -50px;
+}
+
+
+/* Footer */
+footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: wheat;
+}
+footer .logo{
+    height: 100px;
 }
